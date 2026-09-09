@@ -1,0 +1,25 @@
+# Файлы с секретами и локальной конфигурацией
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+env/
+
+# IDE и ОС
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Локальный CA bundle (сгенерирован из системного хранилища этой машины)
+certs/
+
+# Временные файлы
+*.log
